@@ -9,7 +9,6 @@
 int main(int argc,char **argv) {
 
   int socket_fd;      //socket file descriptor
-  int n;
   char sendline[100]; //hold message to send
   char recvline[100]; //hold message received
 
